@@ -28,7 +28,7 @@ main {
 .informacao {
     color: red;
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 
@@ -124,10 +124,17 @@ main {
 }
 
 
-::placeholder { 
+.mensagem::placeholder { 
     color: #0A3871;
-    text-align: center;
-    padding: 10px;
+    text-align:justify;
+    padding-right: 10px;
+    
+}
+
+.text-area::placeholder { 
+    color: #0A3871;
+    text-align:center;
+    
 }
 .text-area:focus {outline: none;
 
