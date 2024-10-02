@@ -12,6 +12,12 @@
     width: 5%;
 }
 
+.titulo{
+    margin-top: 0px;
+    text-align: center;
+    color:#0A3871
+}
+
 main {
     display: flex;
     margin-bottom: 50px;
@@ -35,6 +41,7 @@ main {
     margin-top: 10px;
     margin-left: 70px;
     text-transform:lowerCase;
+    
     
     
 }
@@ -65,7 +72,9 @@ main {
     margin-left: 98px;
     margin-top: 10px;
     padding-left: 20px;
-    position: fixed;
+    position:absolute;
+    
+    
      
 }
 
